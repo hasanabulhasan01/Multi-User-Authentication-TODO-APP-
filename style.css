@@ -1,0 +1,175 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-image: linear-gradient(to bottom, rgb(214, 214, 226), white) !important;
+    position: sticky!important;
+    top: 0!important;
+    z-index: 1000;
+}
+.logo{
+    font-size: 24px !important;
+}
+.nav-item>a{
+    font-size: 18px;
+    font-weight: 700;
+    /* font-family: 'Caprasimo', cursive; */
+    color: rgb(7, 7, 226) !important;
+    letter-spacing: 1.6px !important;
+}
+.loginBtn{
+    font-size: 19px;
+    font-weight: 700;
+    /* font-family: 'Caprasimo', cursive; */
+    text-decoration: none;
+    width: 60px;
+    height: 30px;
+    color:rgb(7, 7, 226) !important;
+    border-right: 3px solid rgb(7, 7, 226) !important;
+}
+.signupBtn{
+    width: 90px;
+    height: 32px;
+    border-radius: 15px;
+    border-width: 2px;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(7, 7, 226) !important;
+    /* background-color: rgb(80, 80, 241) ; */
+    border-color: rgb(7, 7, 226) ;
+}
+.signupBtn:hover{
+    border: none !important;
+    background-color: rgb(7, 7, 226);
+    color: white!important;
+    transition: 0.6s linear;
+}
+.nav-item>a:hover{
+    /* border-bottom: 2px solid rgb(7, 7, 226) !important ; */
+    text-decoration: underline!important;
+    transition: 1.3s !important;
+    transform: scale(1.05);
+
+}
+.loginBtn:hover{
+    text-decoration: underline!important;
+    transform: scale(1.05);
+    transition: 1.3s !important;
+}
+
+/* -----home section----- */
+.home_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home_sec{
+    /* border: 1px solid black; */
+    width: 90%;
+    margin: auto;
+}
+.home_sec>h1{
+    /* font-family: 'Caprasimo', cursive; ; */
+    /* word-spacing: 1px; */
+    letter-spacing: 1px;
+    font-size: 45px;
+    font-weight: 800;
+    color: rgb(28, 28, 224);
+    text-shadow: 2px 2px 3px rgb(171, 171, 233);
+
+}
+.home_sec>h3{
+    letter-spacing: 1px;
+    font-size: 28px;
+    font-weight:600 ;
+    color: rgb(19, 19, 121);
+    margin-top: -5px;
+}
+.home_sec>hr{
+    color:black;
+}
+.home_sec>p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: rgb(99, 95, 95);
+}
+.contact_btn{
+    height: 40px;
+    width: 140px;
+    background-color: rgb(18, 18, 242);
+    border: none;
+    border-radius: 8px;
+    /* border-color: rgb(7, 7, 226); */
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0px 0px 10px rgb(97, 97, 230);
+}
+.contact_btn:hover{
+    background-color: white;
+    color: rgb(18, 18, 242);
+    transition: 0.8s;
+    border-color: rgb(7, 7, 226);
+    border: 2px solid rgb(7, 7, 226);
+}
+
+
+/* ------Features section------ */
+.features{
+    /* padding-top: 40px;
+    padding-bottom: 60px; */
+    /* width: 90%; */
+    height: 80vh;
+    margin-top: 60px!important;
+    margin-bottom: 60px!important;
+}
+.services-header h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(28, 28, 224);
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 3px rgb(173, 173, 227);
+}
+.services-header p{
+    text-align: center;
+    font-size: 22px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(17, 17, 95);
+}
+
+.features_card:hover{
+    transform: scale(1.05);
+    transition: 1.5s ease-in-out;
+}
+
+.features h3{
+    font-family: "Nunito", sans-serif;
+    font-weight: 750;
+    color: rgb(27, 27, 209);
+    font-size: 31px;
+    text-shadow: 2px 2px 3px rgb(164, 164, 220);
+}
+
+.card-text{
+    font-family: "Nunito", sans-serif;
+    font-size: 17px;
+    font-weight: 550;
+    color: rgb(17, 17, 113);
+
+}
+.card-body{
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+.cd-1{
+    border: none!important;
+    box-shadow: 0px 0px 12px rgb(127, 195, 222) ;
+}
+
+/* ------Pricing section------ */

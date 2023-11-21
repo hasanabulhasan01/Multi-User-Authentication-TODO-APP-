@@ -1,0 +1,172 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #e3f2fd;
+}
+
+/* For Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: #ccc;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
+
+.navbar{
+  background-image: linear-gradient(to bottom, rgb(214, 214, 226), white) !important;
+  position: sticky!important;
+  top: 0!important;
+  z-index: 1000;
+}
+.logo{
+  font-size: 24px !important;
+}
+
+.logout_btn{
+  /* width: 40px;
+  height: 40px; */
+  /* border-radius: 20px;
+  border-width: 1px; */
+  border: none;
+  background-color: transparent;
+  font-size: 40px;
+  font-weight: 600;
+  color: red !important;
+  /* border-color: rgb(7, 7, 226) ; */
+}
+.logout_btn:active{
+  border: none !important;
+  transform: scale(0.95);
+  /* background-color: red; */
+  /* color: white!important; */
+  /* transition: 0.6s linear; */
+}
+
+.welcome{
+  max-width: 450px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.welcome-username{
+  text-align: center;
+  letter-spacing: 1px;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(28, 28, 224);
+    text-shadow: 2px 2px 3px rgb(171, 171, 233);
+}
+
+.containeR {
+  position: relative;
+  max-width: 680px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 25px;
+  margin: 30px auto 0;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.133);
+}
+.containeR .input-field {
+  position: relative;
+  height: 64px;
+  width: 100%;
+}
+.input-field textarea {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+  padding: 18px 45px 18px 15px;
+  border: 1px solid #ccc;
+  resize: none;
+}
+.input-field textarea:focus {
+  border-color: #4070f4;
+}
+textarea::-webkit-scrollbar {
+  display: none;
+}
+/* .input-field .uil-plus-circle {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 30px;
+  color: #707070;
+} */
+.input-field textarea:focus ~ .uil-plus-circle {
+  color: #4070f4;
+}
+.containeR .todoLists {
+  max-height: 380px;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* .edit-btn,
+.trash-btn {
+  background-color: transparent !important;
+  border: none !important;
+  color: #0e4bf1;
+} */
+
+.addtask-btn{
+   width: 90px;
+    height: 32px;
+    border-radius: 15px;
+    border-width: 2px;
+    background-color:rgb(7, 7, 226) !important;
+    font-size: 16px;
+    font-weight: 700;
+    color: white ;
+    /* background-color: rgb(80, 80, 241) ; */
+    border-color: rgb(7, 7, 226) ;
+    box-shadow: 3px 3px 5px rgb(137, 137, 226);
+}
+
+.addtask-btn:active{
+  transform: scale(0.95);
+}
+
+/* .todoLists .list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  background-color: #f2f2f2;
+  padding: 20px 15px;
+  border-radius: 8px;
+  margin-top: 10px;
+  position: relative;
+  cursor: pointer;
+} */
+
+
+
+@media screen and (max-width: 350px) {
+  .container {
+    padding: 25px 10px;
+  }
+}

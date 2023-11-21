@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO APP</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-----------navbar starts----------->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">
+          <img width="40px" src="./images todo/todo logo.png" alt="" />Todo
+          <strong>App</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item ms-2 ">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item ms-2 ">
+              <a class="nav-link active" aria-current="page" href="#features">Features</a>
+            </li>
+            <!-- <li class="nav-item ms-2 ">
+              <a class="nav-link active" aria-current="page" href="#">Features</a>
+            </li> -->
+            <li class="nav-item ms-2">
+              <a class="nav-link active" aria-current="page" href="#pricing">Pricing</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li> -->
+            <li class="nav-item ms-2">
+              <a class="nav-link active" aria-current="page" href="" >Contact Us</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <!-- <a class="btn">Search<a>
+            <a class="btn">Search<a> -->
+            <!-- <button class="btn btn-outline-success me-2 mb-1" type="submit">Search</button>
+            <button class="btn btn-outline-success me-2 mb-1" type="submit">Search</button> -->
+            <a class=" loginBtn me-2 mb-1" href="./authentication/login.html">Login</a>
+            <button class="signupBtn me-3 mb-1" onclick="location.href='./authentication/SignUp.html'" >Sign Up</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-----------navbar ends----------->
+
+    <!-----------home section starts----------->
+
+    <div class="container-fluid " id="home" >
+      <div class="row home_main">
+        <div class="col-lg-6 col-md-6 col-12">
+          <div class="home_sec">
+            <h1 class="ms-3">World's most effective <br>and easy to use task app</h1>
+            <hr class="ms-3">
+            <h3 class="ms-3">Never miss an important task again!</h3>
+            <p class="ms-3">Todo App is a productivity app designed to help people stay <br>
+               organized and get more work done. <br>
+               Streamline your day by adding, deleting, and updating tasks effortlessly. <br> Our app simplifies the process, making task management a breeze.</p>
+               
+               <button onclick="location.href='./authentication/login.html'" class=" contact_btn ms-3">Get Started</button>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <img width="100%" src="./images todo/img.02.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <br>
+
+    <!-----------home section ends----------->
+
+    <!-----------Features section starts----------->
+    <!-- <div class="container-fluid">
+      <div class="row about_main">
+        <div class="col-lg-6 col-md-6 col-12"></div>
+        <div class="col-lg-6 col-md-6 col-12"></div>
+      </div>
+    </div> -->
+    <section id="features" class="features" >
+      <div class="container">
+        <header class="services-header">
+          <h2>Features We Offer</h2>
+          <P>Here's a glimpse into what makes our app the perfect companion for your daily tasks</P>
+        </header>
+        <br>
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+          <div class="col ">
+            <div class="features_card card w-100 h-100 cd-1" >
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <div class="card-body">
+                <h3 class="card-title text-center">Effortless Organization</h3>
+                <p class="card-text text-center">Our Todo List App is designed to make task management a breeze. Easily create, edit, and prioritize your to-dos with a user-friendly interface that puts you in control.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col ">
+            <div class=" features_card card h-100 cd-1" >
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <div class="card-body">
+                <h3 class="card-title text-center">Sync Across Devices</h3>
+                <p class="card-text text-center">Stay connected wherever you go. Our app seamlessly syncs your tasks across multiple devices, ensuring you have access to your to-dos whether you're on your computer, tablet, or smartphone.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col ">
+            <div class="features_card card h-100 cd-1" >
+              <!-- <img src="..." class="card-img-top" alt="..."> -->
+              <div class="card-body">
+                <h3 class="card-title text-center">Data Security</h3>
+                <p class="card-text text-center">Your data is important, and we take its security seriously. Rest easy knowing that your tasks and personal information are protected with state-of-the-art security features.</p>
+              </div>
+            </div>
+          </div>           
+        </div>
+      </div>
+    </section>
+    <br>
+    <!-----------Features section ends----------->
+
+    <!-----------Pricing section starts----------->
+    
+
+    
+    
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
