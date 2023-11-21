@@ -135,7 +135,7 @@ function login(){
           });
         console.log(userFound, "User found---");
         localStorage.setItem("currentUser" , JSON.stringify(userFound));
-        location.href = "../dashboard/dash.html"
+        location.href = "../Dashboard/dash.html"
     }else{
         Swal.fire({
             position: "center",
